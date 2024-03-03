@@ -10,14 +10,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // JavaScript for Form Submission
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('contact-form');
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 //Not yet implemented
         const formData = new FormData(this);
-        fetch('https://example.com/submit', {
+        fetch('https://example.com/submit' {
             method: 'POST',
             body: formData
         })
@@ -36,4 +36,4 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('There was an error sending your message. Please try again later.');
         });
     });
-});
+});*/
