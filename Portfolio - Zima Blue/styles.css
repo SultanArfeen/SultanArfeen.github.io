@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('BgImage.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* Transparency */
+}
+
+h1, h2, h3 {
+    color: #1E90FF    ; /* Zima Blue */
+}
+
+p {
+    color: #666;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #000; /* Black */
+    opacity: 0.8; /* Transparency */
+}
+
+nav .text-white {
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+}
+
+section h2 {
+    color: #1E90FF    ; /* Zima Blue */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000; /* Black */
+    opacity: 0.8; /* Transparency */
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+}

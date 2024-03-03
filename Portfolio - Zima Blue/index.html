@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultan Ul Arfeen - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Background Image */
+        body {
+            background-image: url('BgImage.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo/Name -->
+            <div class="text-xl font-bold">
+                Sultan Ul Arfeen
+            </div>
+            <!-- Navigation Links -->
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto py-8">
+        <!-- Home Section -->
+        <section id="home" class="bg-gray-800 bg-opacity-50 text-white p-8 rounded-lg mb-8">
+            <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio - Zima Blue</h1>
+            <p class="text-lg">Hello, I'm Sultan Ul Arfeen, a 3rd-year student at FAST Cfd, Pakistan. This is my portfolio where I showcase my projects, skills, and interests in the field of Artificial Intelligence.</p>
+            <img src="Home.jpg" alt="Home Image" class="mt-4 rounded-lg">
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-800 bg-opacity-50 text-white p-8 rounded-lg mb-8">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Project 1: Image Recognition -->
+                <div class="bg-blue-400 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Image Recognition using Convolutional Neural Networks</h3>
+                    <p class="text-sm">An AI project that utilizes convolutional neural networks (CNNs) to perform image recognition tasks. Trained on a dataset of various objects and animals, the model can accurately identify objects and classify them into predefined categories.</p>
+                    <img src="project1-image.jpg" alt="Image Recognition Project" class="mt-4 rounded-lg">
+                </div>
+                <!-- Project 2: Sentiment Analysis -->
+                <div class="bg-blue-400 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Sentiment Analysis of Social Media Data</h3>
+                    <p class="text-sm">This project involves analyzing social media data using natural language processing (NLP) techniques to determine the sentiment of users' posts and comments. By analyzing text data, the model can classify posts as positive, negative, or neutral, providing valuable insights for sentiment analysis applications.</p>
+                    <img src="project2-image.jpg" alt="Sentiment Analysis Project" class="mt-4 rounded-lg">
+                </div>
+                <!-- Project 3: Autonomous Vehicle Control -->
+                <div class="bg-blue-400 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Autonomous Vehicle Control using Reinforcement Learning</h3>
+                    <p class="text-sm">This project focuses on developing an AI system that can control autonomous vehicles using reinforcement learning algorithms. The model learns to navigate the vehicle in a simulated environment, making decisions based on environmental inputs such as obstacles, traffic signals, and road conditions.</p>
+                    <img src="project3-image.jpg" alt="Autonomous Vehicle Control Project" class="mt-4 rounded-lg">
+                </div>
+                <!-- Project 4: Fraud Detection -->
+                <div class="bg-blue-400 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Fraud Detection in Financial Transactions</h3>
+                    <p class="text-sm">This project involves building an AI system for detecting fraudulent activities in financial transactions. By analyzing transaction data and identifying patterns of fraudulent behavior, the model can flag suspicious transactions in real-time, helping financial institutions prevent fraudulent activities.</p>
+                    <img src="project4-image.jpg" alt="Fraud Detection Project" class="mt-4 rounded-lg">
+                </div>
+                <!-- Project 5: Medical Diagnosis -->
+                <div class="bg-blue-400 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Medical Diagnosis using Deep Learning</h3>
+                    <p class="text-sm">An AI project aimed at assisting medical professionals in diagnosing diseases and medical conditions. The model uses deep learning techniques to analyze medical images such as X-rays, MRIs, and CT scans, providing accurate diagnoses and recommendations for treatment.</p>
+                    <img src="project5-image.jpg" alt="Medical Diagnosis Project" class="mt-4 rounded-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-gray-800 bg-opacity-50 text-white p-8 rounded-lg mb-8">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-lg">Hello, welcome to my portfolio. My name is Sultan Ul Arfeen, which means "King of the Pious", but to be honest, I'm the exact opposite of pious. That being said, I am trying to be a good person so that's something. Anyways, I am a 3rd-year student at FAST Cfd Pakistan, specializing in Computer Science. I have a keen interest in Artificial Intelligence and its applications in various domains. I have been interested in AI since the start hence so many projects in the AI field, I have been actively exploring and learning about machine learning, deep learning, natural language processing, and computer vision.</p>
+            <p class="text-lg mt-4">My goal is to leverage AI technologies to solve real-world problems and contribute to making a positive impact on society. I am passionate about research and innovation in AI, and I aspire to pursue further studies and career opportunities in this field.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-800 bg-opacity-50 text-white p-8 rounded-lg mb-8">
+            <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+            <div class="container mx-auto px-4">
+                <form id="contact-form" action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block font-semibold">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400">
+                    </div>
+                    <div>
+                        <label for="email" class="block font-semibold">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400">
+                    </div>
+                    <div>
+                        <label for="message" class="block font-semibold">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Sultan Ul Arfeen - All Rights Reserved</p>
+            <ul class="mt-4">
+                <li class="inline-block mx-2"><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+                <li class="inline-block mx-2"><a href="#" class="hover:text-gray-300">Terms of Service</a></li>
+                <li class="inline-block mx-2"><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
